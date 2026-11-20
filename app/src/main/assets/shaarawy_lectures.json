@@ -1,0 +1,52 @@
+[
+  {
+    "id": "sh1",
+    "title": "خواطر الشيخ الشعراوي حول سورة الفاتحة وأم الكتاب",
+    "category": "التفسير القرآني",
+    "surahName": "الفاتحة",
+    "duration": "٢٥ دقيقة",
+    "speaker": "الشيخ محمد متولي الشعراوي",
+    "source": "تفسير الشعراوي المكتوب والمرئي — خواطر سورة الفاتحة",
+    "audioUrl": "https://ia801408.us.archive.org/28/items/Shaarawy_Tafseer/001_Al-Fatiha.mp3"
+  },
+  {
+    "id": "sh2",
+    "title": "خواطر في آية الكرسي وعظمة الخالق سبحانه",
+    "category": "العقيدة والتوحيد",
+    "surahName": "البقرة",
+    "duration": "٣٠ دقيقة",
+    "speaker": "الشيخ محمد متولي الشعراوي",
+    "source": "تفسير الشعراوي — خواطر سورة البقرة (آية ٢٥٥)",
+    "audioUrl": "https://ia801408.us.archive.org/28/items/Shaarawy_Tafseer/002_Ayat_Al-Kursi.mp3"
+  },
+  {
+    "id": "sh3",
+    "title": "خواطر حول الصبر على الابتلاء وأجر الصابرين",
+    "category": "الرقائق والقلوب",
+    "surahName": "آل عمران",
+    "duration": "٢٨ دقيقة",
+    "speaker": "الشيخ محمد متولي الشعراوي",
+    "source": "خواطر إيمانية للشيخ الشعراوي — دراسات في الصبر واليقين",
+    "audioUrl": "https://ia801408.us.archive.org/28/items/Shaarawy_Tafseer/003_Sabr_Reflections.mp3"
+  },
+  {
+    "id": "sh4",
+    "title": "خواطر سورة النور وآية النور وبركة بيوت الله",
+    "category": "التفسير القرآني",
+    "surahName": "النور",
+    "duration": "٣٢ دقيقة",
+    "speaker": "الشيخ محمد متولي الشعراوي",
+    "source": "تفسير الشعراوي — خواطر سورة النور",
+    "audioUrl": "https://ia801408.us.archive.org/28/items/Shaarawy_Tafseer/024_An-Nur.mp3"
+  },
+  {
+    "id": "sh5",
+    "title": "خواطر حول الرزق والثقة بضمان الله عز وجل",
+    "category": "الرقائق والقلوب",
+    "surahName": "الذاريات",
+    "duration": "٢٦ دقيقة",
+    "speaker": "الشيخ محمد متولي الشعراوي",
+    "source": "خواطر إيمانية — في مفهوم الرزق والتوكل",
+    "audioUrl": "https://ia801408.us.archive.org/28/items/Shaarawy_Tafseer/051_Adh-Dhariyat.mp3"
+  }
+]

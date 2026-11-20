@@ -1,0 +1,221 @@
+---
+name: Noor & Sakinah
+colors:
+  surface: '#f5fbf7'
+  surface-dim: '#d5dbd8'
+  surface-bright: '#f5fbf7'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff5f1'
+  surface-container: '#e9efeb'
+  surface-container-high: '#e4eae6'
+  surface-container-highest: '#dee4e0'
+  on-surface: '#171d1b'
+  on-surface-variant: '#404945'
+  inverse-surface: '#2c322f'
+  inverse-on-surface: '#ecf2ee'
+  outline: '#707974'
+  outline-variant: '#bfc9c3'
+  surface-tint: '#2d6956'
+  primary: '#003528'
+  on-primary: '#ffffff'
+  primary-container: '#0a4d3c'
+  on-primary-container: '#81bda7'
+  inverse-primary: '#96d3bc'
+  secondary: '#735c00'
+  on-secondary: '#ffffff'
+  secondary-container: '#fed65b'
+  on-secondary-container: '#745c00'
+  tertiary: '#093428'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#234b3e'
+  on-tertiary-container: '#90baa9'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#b2efd8'
+  primary-fixed-dim: '#96d3bc'
+  on-primary-fixed: '#002117'
+  on-primary-fixed-variant: '#10503f'
+  secondary-fixed: '#ffe088'
+  secondary-fixed-dim: '#e9c349'
+  on-secondary-fixed: '#241a00'
+  on-secondary-fixed-variant: '#574500'
+  tertiary-fixed: '#c0ecda'
+  tertiary-fixed-dim: '#a5d0be'
+  on-tertiary-fixed: '#002117'
+  on-tertiary-fixed-variant: '#264e41'
+  background: '#f5fbf7'
+  on-background: '#171d1b'
+  surface-variant: '#dee4e0'
+typography:
+  quran-verse-lg:
+    fontFamily: Amiri
+    fontSize: 30px
+    fontWeight: '400'
+    lineHeight: 64px
+  quran-verse-lg-mobile:
+    fontFamily: Amiri
+    fontSize: 24px
+    fontWeight: '400'
+    lineHeight: 54px
+  quran-verse-md:
+    fontFamily: Amiri
+    fontSize: 20px
+    fontWeight: '400'
+    lineHeight: 46px
+  display-lg:
+    fontFamily: IBM Plex Sans
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 44px
+  display-lg-mobile:
+    fontFamily: IBM Plex Sans
+    fontSize: 26px
+    fontWeight: '600'
+    lineHeight: 36px
+  headline-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 18px
+    fontWeight: '500'
+    lineHeight: 26px
+  body-lg:
+    fontFamily: IBM Plex Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  label-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-sm: 0.75rem
+  margin: 1.25rem
+  margin-sm: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.25rem
+---
+
+## Brand & Style
+
+This design system embodies spiritual tranquility, sacred reverence, and refined modern craft. Designed specifically for an Arabic-first (RTL) mobile experience integrating Quranic reading and daily Azkar, the visual tone balances the sacred weight of classical Islamic manuscript tradition with the crisp minimalism of contemporary mobile interfaces.
+
+### Core Philosophy
+- **Reverence & Calm (Sakinah):** Surfaces evoke high-grade warm parchment, avoiding harsh modern blue-white glare to support prolonged, strain-free devotional reading.
+- **Crafted Elegance (Ihsan):** Subtle metallic golds and deep forest emeralds invoke classical binding craft without decorative excess or distraction.
+- **Clarity of Worship:** The UI recedes behind the sacred text; structural chrome, counters, and navigation remain respectful, precise, and visually silent until summoned.
+- **RTL-Native Ergonomics:** Every transition, gesture, progress indicator, and layout flow is engineered primarily for Right-to-Left cognitive and thumb patterns.
+
+## Colors
+
+The palette draws directly from illuminated manuscript heritage: deep botanical greens, balanced warm golds, parchment tones, and deep charcoal calligraphy inks.
+
+### Primary Roles
+- **Primary (`#0A4D3C`):** Deep Emerald Green. Serves as the primary brand anchor for active prayer states, completed counter thresholds, primary action buttons, and dominant iconography.
+- **Secondary (`#D4AF37`):** Warm Metallic Gold. Applied to sacred verse markers (Ayah end rosettes), progress rings, bookmark toggles, and delicate focal highlights.
+- **Tertiary (`#063226`):** Rich Forest Emerald. Used for deep-surface headers, night-friendly container fills, and top navigational app bars.
+- **Neutral (`#121816`):** Deep Charcoal. Delivers high-legibility typographic contrast without the stark harshness of pure black, pairing harmoniously with soft cream backdrops.
+
+### Surface Tiers
+- **Canvas Base:** Soft Cream / Warm Ivory (`#F9F7F2`) simulates archival vellum, filtering harsh backlight during dawn (Fajr) and late-night (Tahajjud) recitations.
+- **Elevated Surfaces:** Pristine White (`#FFFFFF`) with ultra-fine gold-tinted borders for daily reading cards, surah index cards, and dhikr beads.
+- **Border Accents:** Low-opacity gold lines (`rgba(212, 175, 55, 0.25)` to `rgba(212, 175, 55, 0.40)`) give tactile structure without heavy visual weight.
+
+## Typography
+
+The typographic hierarchy strictly separates sacred canonical texts from operational UI labels:
+
+1. **Sacred Arabic Script (Quranic & Azkar Text):**
+   - Uses an authentic Uthmanic Naskh / Amiri font stack.
+   - Generous vertical line-height (`lineHeight` up to `2.2x` font size) prevents complex Tashkeel (harakat, sukun, shaddah), Maddah, and Tajweed diacritics from overlapping or clipping.
+   - Verse ends use native decorative glyph anchors containing Eastern Arabic numerals.
+
+2. **Interface Chrome & Numerical Telemetry:**
+   - Powered by modern Arabic sans-serif glyphs (`IBM Plex Sans Arabic`).
+   - Prioritizes clean stroke terminals, high geometric legibility, and uniform weight across varying density levels (e.g., Ayah indices, prayer times, search queries, circular counter rings).
+   - Use Eastern Arabic numerals (`٠, ١, ٢, ٣...`) within devotional contexts and standard numerals in technical timestamps where appropriate.
+
+## Layout & Spacing
+
+A mobile-centric fluid rhythm tuned for one-handed thumb interaction in an RTL orientation.
+
+### Grid & Structure
+- **Mobile Handheld (360px - 430px):** 4-column fluid layout with `1rem` outer canvas margins and `0.75rem` gutters. Primary reading views stretch edge-to-edge with `1.25rem` inner horizontal padding to mimic page margins.
+- **Foldables & Tablets (600px - 840px):** 8-column layout. Recitation cards center inside an elevated 640px maximum reading container with bilateral metadata panels (Tafsir, translation, audio reciter selection).
+- **RTL Geometry:** Grid flow, modal drawers, and list items build right-to-left. Floating action buttons (such as the Tasbih tap target) anchor to the bottom-left or centered bottom region to balance one-handed thumb ergonomics.
+
+## Elevation & Depth
+
+Visual depth avoids cold drop shadows, relying instead on warm ambient illumination, soft card layering, and metallic boundaries reminiscent of gilded parchment edges.
+
+### Elevation Hierarchy
+- **Level 0 (Canvas):** Base background in `#F9F7F2` (Warm Ivory). Completely flat, matte, and non-reflective.
+- **Level 1 (Card Surfaces):** Pure White (`#FFFFFF`) cards resting atop Level 0. Raised by an ultra-soft amber-tinted shadow (`box-shadow: 0 4px 20px -2px rgba(10, 77, 60, 0.05), 0 2px 6px -1px rgba(212, 175, 55, 0.08)`) and encased in a 1px border (`rgba(212, 175, 55, 0.20)`).
+- **Level 2 (Modals & Sticky Headers):** Deep Forest Emerald (`#063226`) with a subtle top hairline border of solid metallic gold (`#D4AF37`). Background blur (`backdrop-filter: blur(12px)`) at 92% opacity ensures sacred text beneath is gracefully obscured.
+- **Level 3 (Interactive Floating Accents):** Tasbih counter pads and audio floating sheets use `box-shadow: 0 12px 32px -4px rgba(6, 50, 38, 0.18)`.
+
+## Shapes
+
+The design system employs warm, softened geometric profiles (`roundedness: 2`, where base components use `0.5rem` to `1rem`, and primary content cards scale up to `1rem - 1.5rem`). This removes aggressive sharp edges and produces an organic, handheld, tablet-of-remembrance feel.
+
+### Geometric Embellishments
+- **Surah Headers & Rosettes:** Integrate subtle octagonal or 8-point Islamic star (Khatam) silhouettes as icon containers and Ayah completion badges.
+- **Circular Indicators:** Progress indicators for daily Dhikr goals and Hizb/Juz completion use uninterrupted 360-degree circular pill arcs with hairline gold strokes.
+
+## Components
+
+### Buttons
+- **Primary Button:** Filled Deep Emerald Green (`#0A4D3C`) with Pristine White text and subtle gold border glow on focus. Minimum height 48px, rounded to 16px (`rounded-lg`).
+- **Secondary / Ghost Button:** Transparent background, 1px gold border (`#D4AF37`), Deep Forest Emerald text.
+- **Sacred Audio Player Buttons:** Circular buttons (`w-12 h-12` up to `w-16 h-16`) with concentric metallic ring indicators.
+
+### Cards (Surah & Azkar Units)
+- Structured with White (`#FFFFFF`) fill, 16px to 24px corner radius (`rounded-lg` to `rounded-xl`), and 1px border (`border-amber-300/30`).
+- Headers feature the Surah title in prominent calligraphy alongside revelation place badge (Makki/Madani) and verse tally.
+- Verse body cards provide ample line spacing, followed by contextual bottom icon ribbons: Tafsir, Audio Play, Bookmark, and Share.
+
+### Tasbih & Counter Rings
+- Circular progress track in muted gold-tinted cream (`rgba(212, 175, 55, 0.15)`) with an active stroke in Warm Metallic Gold (`#D4AF37`).
+- Central large display showing the count in crisp Eastern Arabic numerals with a generous thumb-tap target area providing subtle haptic confirmation.
+
+### Chips & Badges
+- **Status Badges:** Soft pill shapes (`rounded-full`) in 10% opacity Emerald (`rgba(10, 77, 60, 0.10)`) with Deep Emerald text, denoting Juz numbers, Hizb quarters, and repeat counts (e.g., `٣ مرات`).
+- **Category Chips:** Horizontal scrolling pill filters for Hisni Azkar categories (Morning, Evening, Travel, Sleep) with gold outline states for active selections.
+
+### Inputs & Search Bars
+- Background in Pristine White, inset 1px gold border, right-aligned search glyph, and soft placeholder text in neutral deep charcoal at 50% opacity.
+- Rounded 16px corners (`rounded-lg`) maintaining visual cohesion with reading cards.

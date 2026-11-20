@@ -1,0 +1,6 @@
+{
+  "name": "محراب النور",
+  "description": "تطبيق محراب النور الشامل للقرآن الكريم والتفسير الميسر ومواقيت الصلاة والأذكار والأربعين النووية بدون إنترنت",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
